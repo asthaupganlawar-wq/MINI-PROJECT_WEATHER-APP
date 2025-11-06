@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cities>
+  <city id="generated-id-1">
+    <name>CityName</name>
+    <country>CountryCode</country>
+    <temp>Temperature</temp>
+    <feels_like>FeelsLike</feels_like>
+    <humidity>Humidity</humidity>
+    <wind>WindSpeed</wind>
+    <description>WeatherDescription</description>
+    <icon>IconCode</icon>
+  </city>
+
+  <city id="generated-id-2">
+    <name>CityName</name>
+    <country>CountryCode</country>
+    <temp>Temperature</temp>
+    <feels_like>FeelsLike</feels_like>
+    <humidity>Humidity</humidity>
+    <wind>WindSpeed</wind>
+    <description>WeatherDescription</description>
+    <icon>IconCode</icon>
+  </city>
+</cities>

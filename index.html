@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Weather App</h1>
+<form id="search-form">
+<input type="text" id="city-name" placeholder="Enter city" required>
+<button type="submit">Get Weather</button>
+</form>
+
+
+<div class="weather-info hidden">
+<div class="icon"></div>
+<div class="temp"></div>
+<div class="desc"></div>
+<div class="details"></div>
+<div class="actions">
+<button id="save-city">Save</button>
+<button id="export-xml">Export XML</button>
+</div>
+</div>
+
+
+<h2>Saved Cities</h2>
+<div id="saved-list">No saved cities yet.</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
