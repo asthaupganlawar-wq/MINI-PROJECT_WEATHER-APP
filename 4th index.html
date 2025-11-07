@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Management System</title>
+  <link rel="stylesheet" href="4th style.css">
+</head>
+<body id="pageBody" class="default">
+  <h2>🌤 Weather Management System</h2>
+
+  <div class="form-container"> 
+    <input type="text" id="city" placeholder="Enter Location">
+    <button onclick="fetchWeather()">Fetch Weather</button>
+    <button id="clearBtn" onclick="clearAll()">🧹 Clear All Records</button>
+  </div>
+
+  <div id="liveWeather">
+    <p id="cityTime"></p>
+  </div>
+
+  <h3>📋 Saved Weather Records</h3>
+  <div id="weatherCards" class="cards-container"></div>
+
+  <!-- Animation Layer -->
+  <div id="weatherEffects"></div>
+
+  <script src="4th script.js"></script>
+</body>
+</html>
